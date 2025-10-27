@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "question": "2 + 2 = ?",
+    "optionA": "3",
+    "optionB": "4",
+    "optionC": "5",
+    "optionD": "6",
+    "correctAnswer": "B"
+  },
+  {
+    "id": 2,
+    "question": "What is the capital of Japan?",
+    "optionA": "Beijing",
+    "optionB": "Seoul",
+    "optionC": "Tokyo",
+    "optionD": "Bangkok",
+    "correctAnswer": "C"
+  }
+]

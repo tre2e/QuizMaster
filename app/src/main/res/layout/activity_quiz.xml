@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/tvQuestionCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Question 1/10"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginTop="32dp"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp">
+
+        <RadioButton android:id="@+id/rbA" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="A" />
+        <RadioButton android:id="@+id/rbB" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="B" />
+        <RadioButton android:id="@+id/rbC" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="C" />
+        <RadioButton android:id="@+id/rbD" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="D" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:layout_marginTop="48dp" />
+
+</LinearLayout>
